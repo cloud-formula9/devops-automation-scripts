@@ -9,7 +9,7 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
 sudo apt-get update
 
 # Installs jenkins on instance / machine
-sudo apt-get install jenkins
+sudo apt-get install jenkins -y
 
 # Displays status of jenkins -> running / stopped
 sudo systemctl status jenkins
