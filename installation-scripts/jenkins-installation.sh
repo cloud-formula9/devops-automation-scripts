@@ -12,7 +12,7 @@ echo "===================================="
 
 # Installs Jenkins
 echo "Installing Jenkins CI/CD"
-sudo apt-get install jenkins
+sudo apt-get install jenkins -y
 echo "===================================="
 
 # starts jenkins server
