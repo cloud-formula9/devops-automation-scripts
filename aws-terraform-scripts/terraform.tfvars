@@ -1,0 +1,1 @@
+# This file contains constants / hard coded values needed for main.tf
